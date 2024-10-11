@@ -1,0 +1,27 @@
+while True:
+    try:
+        int1 = int(input("first integer: "))
+        int2 = int(input("second integer: "))
+        break
+
+    except ValueError:
+        print("please enter a valid integer")
+
+
+
+
+
+list1 = [54,76,2,4,98,100]
+
+range = []
+
+for num in list1:
+ if int1 <= num <= int2:
+    range.append(num)
+       
+print(f"range: {range}")
+
+
+        
+
+            
