@@ -1,0 +1,36 @@
+Names = ["Maria", "Hala", "Ghady", "Ehsan", "Joe", "Zoe"]
+
+while True:
+    letter = input("Letter: ")
+
+    if letter.isnumeric():
+        print("please enter a valid letter")
+        
+
+   
+
+    elif len(letter) > 1:
+        print("enter only one letter")
+          
+
+    
+
+
+    for name in Names:
+
+        if letter in name:
+            print(name)
+
+    cont = input("do you want to add another letter(y/n)? ")
+
+    if cont == "y":
+        True
+
+    else:
+        break
+
+
+       
+
+
+    
